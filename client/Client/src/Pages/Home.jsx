@@ -18,10 +18,10 @@ const Home =()=>{
         </div>
         <div className="bg-text">
             <h1 className="txt">PRACTICE.BETTER.LEARN.BETTER</h1>
-            <ul className="ban_btn">
+            {/* <ul className="ban_btn">
                 <li className="btn_1"><button type="button" className="btn btn-light">Sign In</button></li>
                 <li className="btn_1"><button type="button" className="btn btn-dark">Register</button></li>
-            </ul>
+            </ul> */}
         </div>
     </section>
     <section className="sec-3">

@@ -14,6 +14,7 @@ import Progress from './Progress';
 import Result from "../MockTest/result";
 import MockHome from "../MockTest/MockHome";
 import Quiz from "../MockTest/Quiz";
+import Land from "../LandingPage/Land";
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 
 
@@ -21,7 +22,8 @@ const Routing =()=>{
     return(
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Home />}/>
+      <Route path="/" element={<Land />}/>
+      <Route path="/home" element={<Home />}/>
       <Route path="/about" element={<About />}/>
       <Route path="/contact" element={<Contact />}/>
       <Route path="/service" element={<Services />}/>

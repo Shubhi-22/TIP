@@ -15,13 +15,13 @@ const Horizontal =()=>{
     </button>
     <div className="collapse navbarcustom navbar-collapse" id="navbarSupportedContent">
     <ul className="navbar-nav mr-auto">
-    <li className="nav-item"><NavLink className="Navlink" to="/"><h6 className="menu_item">Home</h6></NavLink></li>
+        <li className="nav-item"><NavLink className="Navlink" to="/home"><h6 className="menu_item">Home</h6></NavLink></li>
         <li className="nav-item navlistcustom"><NavLink className="Navlink" to="/about"><h6 className="menu_item">About US</h6></NavLink></li>
         <li className="nav-item "><NavLink className="Navlink" to="/service"><h6 className="menu_item">Services</h6></NavLink></li>
         <li className="nav-item "><NavLink className="Navlink" to="/contact"><h6 className="menu_item">Contact US</h6></NavLink></li> 
         <li className="nav-item "><NavLink className="Navlink" to="/help"><h6 className="menu_item">Help</h6></NavLink></li>
-        <li className="nav-item "><button type="button" className="btn btn-light">Sign In</button></li>
-        <li className="nav-item "><button type="button" className="btn btn-dark">Register</button></li>
+        {/* <li className="nav-item "><button type="button" className="btn btn-light">Sign In</button></li>
+        <li className="nav-item "><button type="button" className="btn btn-dark">Register</button></li> */}
     </ul>
     </div>
     </nav>

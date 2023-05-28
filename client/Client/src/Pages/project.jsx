@@ -3,11 +3,12 @@ import React from "react";
 // import Logo from "./Logo.png";
 import Footer from "./Footer.jsx";
 import Horizontal from "./Horizontal.jsx";
+import Diary from "../ProjectDiary/diary.jsx";
 
 const Project=()=>{
     return <>
     <Horizontal/>
-    <h1>You can access your digital project diary</h1>
+    <Diary/>
     <Footer/>
     </>
 };
